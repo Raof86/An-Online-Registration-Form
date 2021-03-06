@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Online registration form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <h1 class="header">The code review</h1>
+      <div class="desktop">
+        <h2 class="subheader">Signup for our newsletter</h2>
+          <p class="text">Get the latest news on how your code is doing right in your box</p>
+
+ 
+    <hr class="a">
+    <hr class="b">
+
+    <div class="upper-part">
+        <h2 class="title" id="headline">Contact Information</h2>
+
+        <div id="center">
+                    <div class="grid-container">
+                      <div class="item1"><form action="/action_page.php">
+                              <label for="fname" id="text">Full Name</label> </div>
+                              <div class="item2"><input type="text" id="fname" name="fullname" placeholder="Required"></div>
+                           
+                              <div class="item3"><label for="email" id="text">Email Address</label></div>
+                              <div class="item4"><input type="email" id="email" name="email" placeholder="Required"></div>
+
+                              <div class="item5"><label for="number" id="text" id=>Phone Number</label></div>
+                              <div class="item6" ><input type="text" 
+                             id="number" name="number"></div> 
+
+                            <div class="item7"><label for="streetaddress" id="text">Street Address</label></div>
+                            <div class="item8"><input type="text" id="address" name="address">
+                            </div>
+
+                          <div class="item9"><label for="city" id="text">City</label></div>
+                          <div class="item10">
+                          <input type="text" id="city" name="city">
+                          </div>
+           
+                          <div class="item11"><label for="state" id="text">State</label></div>
+                          <div class="item12"> <select id="state" name="state"> 
+                            <option disabled hidden selected placeholder="Required">Choose State</option>
+                        <option value="alabama">Alabama</option>
+                        <option value="mississippi">Mississippi</option>
+                        <option value="florida">Florida</option>
+                      </select></div>
+          
+
+                <div class="item13"><label for="zipcode" id="text" class="zipcode">Zip Code</label></div>
+                <div class="item14">
+                <input type="zipcode" id="zipcode" name="zipcode"></div>
+              </div>
+           </div>
+  </div>
+            <hr class="c">
+
+  <div class="lower-part">
+
+            <h2 id="headline">Newsletter</h2>
+
+              <p id="newsletter-underline">Select the newsletters you would like to recieve</p>
+              <div id="checkbox">
+              <form action="/action_page.php">
+                <div id="form"><input type="checkbox" id="html-news" name="html news" value="html news">
+                <label for="html news" id="html-news"> HTML News</label><br></div>
+                <div id="form"><input type="checkbox" id="css-news" name="css news" value="css news">
+                <label for="css news" id="css-news"> CSS News</label><br></div>
+                <div id="form"><input type="checkbox" id="Javascript-news" name="Javascript news" value="Javascript news">
+                <label for="Javascript news" id="Javascript-news"> Javascript News</label><br><br></div>
+              </form>
+   
+              <p id="newsletter">Newsletter format</p>
+
+              <form id="checkbox">
+                <div id="form"><input type="radio" id="html1" name="html" value="html">
+                <label for="html" id="html">HTML</label><br></div>
+                <div id="form"><input type="radio" id="Plain-text1" name="Plain text" value="Plain text">
+                <label for="Plain text" id="Plain-text">Plain text</label><br></div>
+              </form> 
+
+              <p id="form-text">Other topics you would like to hear about</p>
+
+              <form id="textarea"> 
+                <textarea></textarea>
+              </form>
+
+            <input type="submit" value="Sign Up" id="submit">
+          </form>
+    </div>
+          <footer>Copyright the Code Review</footer>
+        </div>
+  </body>
+</html>
