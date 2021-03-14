@@ -20,7 +20,9 @@
 
         <div id="center">
                     <div class="grid-container">
-                      <div class="item1"><form action="/action_page.php">
+                      <div class="item1">
+                        <form>
+                            <fieldset>
                               <label for="fname" id="text">Full Name</label> </div>
                               <div class="item2"><input type="text" id="fname" name="fullname" placeholder="Required"></div>
                            
@@ -52,6 +54,7 @@
                 <div class="item13"><label for="zipcode" id="text" class="zipcode">Zip Code</label></div>
                 <div class="item14">
                 <input type="zipcode" id="zipcode" name="zipcode"></div>
+                </fieldset>
               </div>
            </div>
   </div>
@@ -63,31 +66,32 @@
 
               <p id="newsletter-underline">Select the newsletters you would like to recieve</p>
               <div id="checkbox">
-              <form action="/action_page.php">
+              <fieldset>
                 <div id="form"><input type="checkbox" id="html-news" name="html news" value="html news">
                 <label for="html news" id="html-news"> HTML News</label><br></div>
                 <div id="form"><input type="checkbox" id="css-news" name="css news" value="css news">
                 <label for="css news" id="css-news"> CSS News</label><br></div>
                 <div id="form"><input type="checkbox" id="Javascript-news" name="Javascript news" value="Javascript news">
                 <label for="Javascript news" id="Javascript-news"> Javascript News</label><br><br></div>
-              </form>
+              </fieldset>
    
               <p id="newsletter">Newsletter format</p>
 
-              <form id="checkbox">
+              <fieldset>
                 <div id="form"><input type="radio" id="html1" name="html" value="html">
                 <label for="html" id="html">HTML</label><br></div>
                 <div id="form"><input type="radio" id="Plain-text1" name="Plain text" value="Plain text">
                 <label for="Plain text" id="Plain-text">Plain text</label><br></div>
-              </form> 
+              </fieldset> 
 
               <p id="form-text">Other topics you would like to hear about</p>
 
-              <form id="textarea"> 
+              <fieldset id="textarea"> 
                 <textarea></textarea>
-              </form>
-
+              </fieldset>
+              <fieldset>
             <input type="submit" value="Sign Up" id="submit">
+              </fieldset>
           </form>
     </div>
           <footer>Copyright the Code Review</footer>
