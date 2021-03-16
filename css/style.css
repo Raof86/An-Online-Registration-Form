@@ -15,6 +15,14 @@
   margin-left: 5%;
 }
 
+fieldset {
+  border: none;
+}
+
+.item1 {
+  margin-left: -2%;
+}
+
 #checkbox {
   margin-left: 5%;
 }
@@ -161,6 +169,10 @@ input[type=text], input[type=email], select {
 
     .header {
       font-size: 200%;
+    }
+
+    .item1 {
+      margin-left: -7%;
     }
 
     .subheader {
@@ -409,6 +421,10 @@ input[type=text], input[type=email], select {
   
     .header {
       font-size: 200%;
+    }
+
+    .item1 {
+      margin-left: -4%;
     }
 
     .subheader {
