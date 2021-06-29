@@ -12,47 +12,47 @@
         <h2 class="subheader">Signup for our newsletter</h2>
           <p class="text">Get the latest news on how your code is doing right in your box</p>
 
- 
     <hr class="a">
     <hr class="b">
 
     <div class="upper-part">
-        <legend class="title" id="headline">Contact Information</legend>
+      <fieldset>
+        <legend class="title" id="headline1">Contact Information</legend>
 
         <div id="center">
                     <div class="grid-container">
                       <div class="item1">
                         <form>
                             <fieldset>
-                              <label for="fname" id="text">Full Name</label> </div>
+                              <label for="fname" class="fullname">Full Name</label> </fieldset></div>
                               <div class="item2"><input type="text" id="fname" name="fullname" placeholder="Required"></div>
                            
-                              <div class="item3"><label for="email" id="text">Email Address</label></div>
+                              <div class="item3"><label for="email">Email Address</label></div>
                               <div class="item4"><input type="email" id="email" name="email" placeholder="Required"></div>
 
-                              <div class="item5"><label for="number" id="text" id=>Phone Number</label></div>
-                              <div class="item6" ><input type="text" 
-                             id="number" name="number"></div> 
+                              <div class="item5"><label for="number">Phone Number</label></div>
+                              <div class="item6" ><input type="tel" id="number" name="number"></div> 
 
-                            <div class="item7"><label for="streetaddress" id="text">Street Address</label></div>
-                            <div class="item8"><input type="text" id="address" name="address">
+                            <div class="item7"><label for="streetaddress">Street Address</label></div>
+                            <div class="item8"><input type="text" id="streetaddress" name="address">
                             </div>
 
-                          <div class="item9"><label for="city" id="text">City</label></div>
+                          <div class="item9"><label for="city">City</label></div>
                           <div class="item10">
                           <input type="text" id="city" name="city">
                           </div>
            
-                          <div class="item11"><label for="state" id="text">State</label></div>
+                          <div class="item11"><label for="state">State</label></div>
                           <div class="item12"> <select id="state" name="state"> 
-                            <option disabled hidden selected placeholder="Required">Choose State</option>
+                            <option  selected disabled hidden placeholder="Required" >Choose State</option>
                         <option value="alabama">Alabama</option>
                         <option value="mississippi">Mississippi</option>
                         <option value="florida">Florida</option>
                       </select></div>
-          
 
-                <div class="item13"><label for="zipcode" id="text" class="zipcode">Zip Code</label></div>
+                  
+          
+                <div class="item13"><label for="zipcode" class="zipcode">Zip Code</label></div>
                 <div class="item14">
                 <input type="zipcode" id="zipcode" name="zipcode"></div>
                 </fieldset>
@@ -62,37 +62,37 @@
             <hr class="c">
 
   <div class="lower-part">
-
-            <legend id="headline">Newsletter</legend>
+          <fieldset>
+            <legend id="headline2">Newsletter</legend>
 
               <p id="newsletter-underline">Select the newsletters you would like to recieve</p>
               <div id="checkbox">
-              <fieldset>
+              
                 <div id="form"><input type="checkbox" id="html-news" name="html news" value="html news">
-                <label for="html news" id="html-news"> HTML News</label><br></div>
+                <label for="html-news" id="html_news"> HTML News</label><br></div>
                 <div id="form"><input type="checkbox" id="css-news" name="css news" value="css news">
-                <label for="css news" id="css-news"> CSS News</label><br></div>
+                <label for="css-news" id="css_news"> CSS News</label><br></div>
                 <div id="form"><input type="checkbox" id="Javascript-news" name="Javascript news" value="Javascript news">
-                <label for="Javascript news" id="Javascript-news"> Javascript News</label><br><br></div>
+                <label for="Javascript-news" id="Javascript_news"> Javascript News</label><br><br></div>
               </fieldset>
    
               <p id="newsletter">Newsletter format</p>
 
-              <fieldset>
+              <fieldset id="radiobuttons">
                 <div id="form"><input type="radio" id="html1" name="html" value="html">
-                <label for="html" id="html">HTML</label><br></div>
+                <label for="html1" id="html">HTML</label><br></div>
                 <div id="form"><input type="radio" id="Plain-text1" name="Plain text" value="Plain text">
-                <label for="Plain text" id="Plain-text">Plain text</label><br></div>
-              </fieldset> 
-
-              <p id="form-text">Other topics you would like to hear about</p>
-
-              <fieldset id="textarea"> 
-                <textarea></textarea>
+                <label for="Plain-text1" id="plain_text">Plain text</label><br></div>
               </fieldset>
-              <fieldset>
+
+              <label for="form-text" class="form-text">Other topics you would like to hear about</label>
+
+              <fieldset> 
+                <textarea id="form-text" name="form-text"></textarea>
+              </fieldset>
+              <fieldset id="submit">
             <input type="submit" value="Sign Up" id="submit">
-              </fieldset>
+          </fieldset>
           </form>
     </div>
           <footer>Copyright the Code Review</footer>
