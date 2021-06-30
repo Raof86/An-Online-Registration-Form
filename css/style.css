@@ -148,7 +148,7 @@ input[type=text], input[type=email],input[type=tel], select {
     box-sizing: border-box;
   }
 
-  input[type=zipcode] {
+  input[type=number] {
     width: 50%;
     font-size: 120%;
     padding: 12px 20px;
@@ -170,6 +170,13 @@ input[type=text], input[type=email],input[type=tel], select {
     cursor: pointer;
   }
 
+  #submit1 {
+    margin-top: 4%;
+    width: 90%;
+    border-radius: 5px;
+    height: 90px;
+  }
+
   label {
     font-size: 16px;
   }
@@ -182,20 +189,13 @@ input[type=text], input[type=email],input[type=tel], select {
     text-align: right;
   }
 
-  #form {
+  #form1, #form2, #form3, #form4, #form5 {
     margin-top: 2%;
   }
 
   #textarea {
     margin-top: 2%;
     margin-left: -4%;
-  }
-
-  #submit {
-    margin-top: 4%;
-    width: 94%;
-    border-radius: 5px;
-    height: 90px;
   }
 
   #newsletter {
@@ -263,10 +263,6 @@ input[type=text], input[type=email],input[type=tel], select {
         width: 87%;
         margin-left: 3%;
       }
-    
-      }
-
-      @media (min-width: 768px) {
     
       }
 
@@ -378,18 +374,15 @@ input[type=text], input[type=email],input[type=tel], select {
     margin-left: -2%;
   }
 
-  #submit {
-    font-size: 140%;
-  }
-
   textarea {
     width: 102%;
     margin-left: 1.3%;
   }
 
-  #submit {
-    width: 106%;
-    margin-left: -2.2%;
+  #submit1 {
+    width: 80%;
+    margin-left: 9%;
+    font-size: 140%;
   }
 
   .item1 {
@@ -510,12 +503,12 @@ input[type=text], input[type=email],input[type=tel], select {
     width: 63%;
     margin-left: 16%;
   }
-
+  
   #submit {
     margin-top: .6%;
     width: 80%;
     margin-left: 8.6%;
-  }
+  } 
 
   footer {
     margin-top: 4%;
@@ -635,253 +628,3 @@ input[type=text], input[type=email],input[type=tel], select {
     }
 
   }
-
-
-  /*
-  @media (min-width: 810px) {
-  
-    .header {
-      font-size: 200%;
-    }
-
-    .item1 {
-      margin-left: -4%;
-    }
-
-    .subheader {
-      font-size: 200%;
-    }
-
-    .text {
-      font-size: 150%;
-    }
-
-    #headline {
-      font-size: 180%;
-    }
-
-    #text {
-      font-size: 120%;
-    }
-
-    #fname, #email, #state {
-      font-size: 110%;
-      color:rgb(93, 91, 91);
-    }
-
-    .desktop {
-      width: 70%;
-      margin: auto;
-    }
-
-    .a {
-      border: 5px solid rgb(1, 17, 53);
-      width: 100%;
-      margin-left: 3%;
-  }
-  
-  .b {
-      border: 1px solid rgb(1, 17, 53);
-      width: 100.8%;
-      margin-left: 3%;
-  }
-  
-  .c {
-    border: 1px solid rgb(1, 17, 53);
-    width: 100.8%;
-    margin-left: 3%;
-  }
-
-  input[type=text], input[type=email], select {
-    width: 110%;
-    margin-left: -20%;
-    font-size: 20px;
-  }
-
-  #html-news, #css-news, #Javascript-news, #html, #Plain-text {
-    font-size: 120%;
-    margin-left: 25px;
-  }
-
-  .upper-part {
-    margin-left:1%;
-    margin-right: 1%;
-  }
-
-  .lower-part {
-    margin-left:1%;
-  }
-
-  #newsletter {
-    font-size: 120%;
-    margin-left: -2%;
-  }
-
-  #newsletter-underline {
-    font-size: 120%;
-    margin-left: 2.5%;
-  }
-
-  #html1, #Plain-text1 {
-    margin-left: -1.3%;
-  }
-
-  #form-text {
-    font-size: 120%;
-    margin-left: -2%;
-  }
-
-  textarea {
-    width: 100%;
-    margin-left: 1.6%;
-  }
-
-  #submit {
-    width: 104%;
-    margin-left: -2.3%;
-    font-size: 140%;
-  }
-
-  .item1 {
-  margin-top: 8%;
-  }
-
-  .item2 {
-    width: 115%;
-    margin-left: -22%;
-  }
-
-  .item3 {
-    margin-top: 8%;
-    }
-
-  .item4 {
-    width: 115%;
-    margin-left: -22%;
-  }
-
-  .item5 {
-    margin-top: 8%;
-    }
-
-  .item6 {
-    width: 115%;
-    margin-left: -22%;
-  }
-
-  .item7 {
-    margin-top: 8%;
-    }
-
-  .item8 {
-    width: 115%;
-    margin-left: -22%;
-  }
-
-  .item9 {
-    margin-top: 8%;
-    }
-
-  .item10 {
-    width: 115%;
-    margin-left: -22%;
-  }
-
-  .item11 {
-    margin-top: 8%;
-    }
-
-  .item12 {
-    width: 115%;
-    margin-left: 6%;
-  }
-
-  .item13 {
-    margin-top: 11%;
-    }
-
-  .item14 {
-    margin-left: -22%;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-gap: 10px;
-    padding: 10px;
-  }
-
-  .item1 {
-    grid-column: 1 / span 1;
-    grid-row: 1;
-  }
-  
-  .item2 {
-    grid-column: span 1 / span 2;
-    grid-row: 1;
-  }
-  
-  .item3 {
-    grid-column:  1 / span 1;
-    grid-row: 2;
-  }
-
-  .item4 {
-    grid-column: span 1 / span 2;
-    grid-row: 2;
-  }
-
-  .item5 {
-    grid-column: 1 / span 1;
-    grid-row: 3;
-  } 
-
-  .item6 {
-    grid-column: span 1 / span 2;
-    grid-row: 3;
-  }
-
-  .item7 {
-    grid-column: 1 / span 1;
-    grid-row: 4;
-  } 
-
-  .item8 {
-    grid-column: span 1 / span 2;
-    grid-row: 4;
-  }
-
-  .item9 {
-    grid-column: 1 / span 1;
-    grid-row: 5;
-  }
-
-  .item10 {
-    grid-column: span 1 / span 2;
-    grid-row: 5;
-  }
-
-  .item11 {
-    grid-column: 1 / span 1;
-    grid-row: 6;
-  }
-
-  .item12 {
-    grid-column: span 1 / span 2;
-    grid-row: 6;
-  }
-
-  .item13 {
-    grid-column: 1 / span 1;
-    grid-row: 7;
-  }
-
-  .item14 {
-    grid-column: span 1 / span 2;
-    grid-row: 7;
-  }
-
-  footer {
-    font-size: large;
-  }
-
-  } */
