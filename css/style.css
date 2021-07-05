@@ -37,10 +37,6 @@ fieldset {
   border: none;
 }
 
-.item1 {
-  margin-left: -4%;
-}
-
 div.item12 {
   margin-left: .2%;
 }
@@ -279,14 +275,6 @@ input[type=text], input[type=email],input[type=tel], select {
     #checkbox {
       margin-bottom: 4%;
     }
-
-    .fullname {
-      margin: 1%;  
-    } 
-
-    .item1 {
-      margin-left: -16%;
-    } 
 
     .subheader {
       font-size: 200%;
@@ -611,20 +599,11 @@ input[type=text], input[type=email],input[type=tel], select {
       margin-left:13%;
     }
 
-    .fullname {
-      margin:2.5%;  
-    } 
-
   }
 
   @media (min-width: 1199px) {
-  
-    .fullname {
-      margin:5%;  
-    } 
 
     #checkbox {
       margin-left:13.3%;
     }
-
   }
