@@ -149,8 +149,8 @@ input[type=text], input[type=email],input[type=tel], select {
     box-sizing: border-box;
   }
 
-  input[type=number] {
-    width: 45.25%;
+  input[id=zipcode] {
+    width: 50%;
     font-size: 120%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -331,6 +331,12 @@ input[type=text], input[type=email],input[type=tel], select {
   input[type=text], input[type=email] {
     width: 110%;
     margin-left: -20%;
+    font-size: 20px;
+  }
+
+   #zipcode {
+    width: 25%;
+    margin-left: -1%;
     font-size: 20px;
   }
 
